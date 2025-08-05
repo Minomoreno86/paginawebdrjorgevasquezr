@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundas Opiniones Médicas - Dr. Jorge Vásquez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logopaginaweb.png" alt="Dr. Jorge Vásquez" height="40" class="me-2">
+                <span>Dr. Jorge Vásquez R</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Mis Aplicaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aplicaciones/index.html">Ver Todas</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="aplicaciones/DosVidas/index.html">DosVidas</a></li>
+                            <li><a class="dropdown-item" href="aplicaciones/calculadora-fertilidad/index.html">Calculadora de Fertilidad</a></li>
+                            <li><a class="dropdown-item" href="aplicaciones/planificacion-familiar/index.html">Planificación Familiar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog/index.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="citas.html">Citas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="segundas-opiniones.html">Segundas Opiniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero-section-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold text-white mb-4">Segundas Opiniones Médicas</h1>
+                    <p class="lead text-light">
+                        Obtén una evaluación profesional adicional para tu caso médico
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Second Opinion -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5 fw-bold mb-4">¿Qué es una Segunda Opinión?</h2>
+                        <p class="lead">
+                            Una segunda opinión médica es la evaluación de tu caso por parte de otro especialista, 
+                            proporcionando una perspectiva adicional sobre tu diagnóstico, opciones de tratamiento 
+                            y pronóstico.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-search-plus fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Evaluación Detallada</h5>
+                            <p class="card-text">
+                                Revisión exhaustiva de tu historial médico, estudios y diagnóstico actual.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-lightbulb fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Perspectiva Adicional</h5>
+                            <p class="card-text">
+                                Obtención de una visión diferente que puede confirmar o sugerir alternativas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shield-alt fa-3x text-info mb-3"></i>
+                            <h5 class="card-title">Tranquilidad</h5>
+                            <p class="card-text">
+                                Mayor confianza en las decisiones médicas importantes para tu salud.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- When to Seek -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center fw-bold mb-5">¿Cuándo Buscar una Segunda Opinión?</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-procedures fa-2x text-danger"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5>Cirugía Recomendada</h5>
+                                    <p>Antes de someterte a cualquier procedimiento quirúrgico ginecológico u obstétrico.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-microscope fa-2x text-warning"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5>Diagnóstico Complejo</h5>
+                                    <p>Cuando recibes un diagnóstico difícil o poco común que requiere tratamiento especializado.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-pills fa-2x text-success"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5>Tratamiento No Efectivo</h5>
+                                    <p>Si el tratamiento actual no está dando los resultados esperados.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-question-circle fa-2x text-info"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5>Dudas sobre el Diagnóstico</h5>
+                                    <p>Cuando tienes dudas o no te sientes completamente segura del diagnóstico recibido.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center fw-bold mb-5">Proceso de Segunda Opinión</h2>
+                    <div class="row g-4">
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <div class="step-number">1</div>
+                                <h5>Solicitud</h5>
+                                <p>Completa el formulario con tu información y caso médico.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <div class="step-number">2</div>
+                                <h5>Documentación</h5>
+                                <p>Envía tus estudios médicos, análisis y diagnóstico previo.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <div class="step-number">3</div>
+                                <h5>Evaluación</h5>
+                                <p>Revisión detallada de tu caso por parte del Dr. Vásquez.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <div class="step-number">4</div>
+                                <h5>Informe</h5>
+                                <p>Recibes un informe detallado con la segunda opinión.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Form -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-header bg-success text-white">
+                            <h3 class="card-title mb-0">
+                                <i class="fas fa-stethoscope me-2"></i>Solicitar Segunda Opinión
+                            </h3>
+                        </div>
+                        <div class="card-body p-4">
+                            <form id="segundaOpinionForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="nombre" class="form-label">Nombre Completo *</label>
+                                        <input type="text" class="form-control" id="nombre" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="edad" class="form-label">Edad *</label>
+                                        <input type="number" class="form-control" id="edad" min="18" max="100" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="telefono" class="form-label">Teléfono *</label>
+                                        <input type="tel" class="form-control" id="telefono" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Correo Electrónico *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="diagnosticoPrevio" class="form-label">Diagnóstico Previo *</label>
+                                    <textarea class="form-control" id="diagnosticoPrevio" rows="3" required placeholder="Describe el diagnóstico que recibiste anteriormente..."></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="tratamientoActual" class="form-label">Tratamiento Actual</label>
+                                    <textarea class="form-control" id="tratamientoActual" rows="3" placeholder="Describe el tratamiento que estás recibiendo actualmente..."></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="motivoSegundaOpinion" class="form-label">Motivo de la Segunda Opinión *</label>
+                                    <textarea class="form-control" id="motivoSegundaOpinion" rows="4" required placeholder="Explica por qué buscas una segunda opinión..."></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="estudiosAdjuntos" class="form-label">Estudios Médicos</label>
+                                    <input type="file" class="form-control" id="estudiosAdjuntos" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx">
+                                    <div class="form-text">Puedes adjuntar estudios, análisis, resonancias, ecografías, etc. (PDF, imágenes, documentos)</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="urgencia" class="form-label">Urgencia *</label>
+                                        <select class="form-select" id="urgencia" required>
+                                            <option value="">Seleccionar...</option>
+                                            <option value="normal">Normal (1-2 semanas)</option>
+                                            <option value="urgente">Urgente (3-5 días)</option>
+                                            <option value="muy-urgente">Muy Urgente (24-48 horas)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="consultaPresencial" class="form-label">Tipo de Consulta</label>
+                                        <select class="form-select" id="consultaPresencial">
+                                            <option value="virtual">Solo revisión de documentos</option>
+                                            <option value="presencial">Consulta presencial</option>
+                                            <option value="ambas">Revisión + consulta presencial</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="politicas" required>
+                                        <label class="form-check-label" for="politicas">
+                                            Acepto las <a href="#" target="_blank">políticas de privacidad</a> y autorizo el uso de mi información médica para la segunda opinión *
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-success btn-lg">
+                                        <i class="fas fa-paper-plane me-2"></i>Solicitar Segunda Opinión
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center fw-bold mb-5">Tarifas de Segundas Opiniones</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-primary">Revisión Básica</h5>
+                                    <div class="price">$XXX</div>
+                                    <ul class="list-unstyled">
+                                        <li>Revisión de documentos</li>
+                                        <li>Informe escrito</li>
+                                        <li>Entrega en 1-2 semanas</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-primary shadow">
+                                <div class="card-header bg-primary text-white text-center">
+                                    <small>MÁS POPULAR</small>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-primary">Revisión Completa</h5>
+                                    <div class="price">$XXX</div>
+                                    <ul class="list-unstyled">
+                                        <li>Revisión de documentos</li>
+                                        <li>Consulta virtual</li>
+                                        <li>Informe detallado</li>
+                                        <li>Entrega en 3-5 días</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-primary">Revisión Premium</h5>
+                                    <div class="price">$XXX</div>
+                                    <ul class="list-unstyled">
+                                        <li>Revisión de documentos</li>
+                                        <li>Consulta presencial</li>
+                                        <li>Informe completo</li>
+                                        <li>Seguimiento incluido</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Dr. Jorge Vásquez</h5>
+                    <p>Especialista en Ginecología y Obstetricia</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-3">Navegación</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none">Inicio</a></li>
+                        <li><a href="servicios.html" class="text-light text-decoration-none">Servicios</a></li>
+                        <li><a href="blog/index.html" class="text-light text-decoration-none">Blog</a></li>
+                        <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Aplicaciones</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="aplicaciones/DosVidas/index.html" class="text-light text-decoration-none">DosVidas</a></li>
+                        <li><a href="aplicaciones/calculadora-fertilidad/index.html" class="text-light text-decoration-none">Calculadora de Fertilidad</a></li>
+                        <li><a href="aplicaciones/planificacion-familiar/index.html" class="text-light text-decoration-none">Planificación Familiar</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Contacto</h6>
+                    <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>[Dirección]</p>
+                    <p class="mb-1"><i class="fas fa-phone me-2"></i>+123 456 7890</p>
+                    <p class="mb-1"><i class="fas fa-envelope me-2"></i>contacto@drjorgevasquezr.com</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="mb-0">&copy; 2025 Dr. Jorge Vásquez. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a href="#" class="text-light text-decoration-none me-3">Política de Privacidad</a>
+                    <a href="#" class="text-light text-decoration-none">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Dr. Jorge Vásquez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../images/logopaginaweb.png" alt="Dr. Jorge Vásquez" height="40" class="me-2">
+                <span>Dr. Jorge Vásquez R</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Mis Aplicaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../aplicaciones/index.html">Ver Todas</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../aplicaciones/DosVidas/index.html">DosVidas</a></li>
+                            <li><a class="dropdown-item" href="../aplicaciones/calculadora-fertilidad/index.html">Calculadora de Fertilidad</a></li>
+                            <li><a class="dropdown-item" href="../aplicaciones/planificacion-familiar/index.html">Planificación Familiar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../citas.html">Citas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../segundas-opiniones.html">Segundas Opiniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero-section-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold text-white mb-4">Blog Médico</h1>
+                    <p class="lead text-light">
+                        Información, consejos y novedades sobre salud femenina y ginecología
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card featured-article border-0 shadow-lg mb-5">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="featured-image">
+                                    <i class="fas fa-heartbeat fa-5x text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <span class="badge bg-primary mb-2">Artículo Destacado</span>
+                                    <h3 class="card-title fw-bold">La Importancia del Control Prenatal</h3>
+                                    <p class="card-text">
+                                        El control prenatal es fundamental para garantizar la salud tanto de la madre como del bebé durante el embarazo. 
+                                        Descubre cuándo iniciar los controles y qué esperar en cada consulta.
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            <i class="fas fa-calendar me-2"></i>15 de Enero, 2025
+                                            <i class="fas fa-user me-2 ms-3"></i>Dr. Jorge Vásquez
+                                        </small>
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Leer Más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Categorías</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-baby fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Embarazo</h5>
+                            <p class="card-text">Consejos y cuidados durante el embarazo</p>
+                            <a href="#" class="btn btn-outline-primary">Ver Artículos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-female fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">Ginecología</h5>
+                            <p class="card-text">Salud ginecológica y prevención</p>
+                            <a href="#" class="btn btn-outline-success">Ver Artículos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-heart fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title">Planificación</h5>
+                            <p class="card-text">Métodos anticonceptivos y fertilidad</p>
+                            <a href="#" class="btn btn-outline-danger">Ver Artículos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-dna fa-3x text-info mb-3"></i>
+                            <h5 class="card-title">Menopausia</h5>
+                            <p class="card-text">Cuidados en la etapa menopáusica</p>
+                            <a href="#" class="btn btn-outline-info">Ver Artículos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Articles -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Artículos Recientes</h2>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <article class="card border-0 shadow h-100">
+                        <div class="article-image">
+                            <i class="fas fa-stethoscope fa-4x text-primary"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Ginecología</span>
+                            <h5 class="card-title">Exámenes Ginecológicos: ¿Cuándo y Por Qué?</h5>
+                            <p class="card-text">
+                                La importancia de los exámenes ginecológicos regulares para la detección temprana 
+                                de problemas y el mantenimiento de la salud reproductiva.
+                            </p>
+                            <div class="article-meta">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-2"></i>10 de Enero, 2025
+                                    <i class="fas fa-clock ms-3 me-2"></i>5 min lectura
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-outline-primary">Leer Artículo</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article class="card border-0 shadow h-100">
+                        <div class="article-image">
+                            <i class="fas fa-seedling fa-4x text-success"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Planificación</span>
+                            <h5 class="card-title">Métodos Anticonceptivos Modernos</h5>
+                            <p class="card-text">
+                                Una guía completa sobre los diferentes métodos anticonceptivos disponibles, 
+                                su efectividad y cómo elegir el más adecuado para ti.
+                            </p>
+                            <div class="article-meta">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-2"></i>8 de Enero, 2025
+                                    <i class="fas fa-clock ms-3 me-2"></i>7 min lectura
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-outline-primary">Leer Artículo</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article class="card border-0 shadow h-100">
+                        <div class="article-image">
+                            <i class="fas fa-spa fa-4x text-info"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-info mb-2">Menopausia</span>
+                            <h5 class="card-title">Síntomas de la Menopausia: Qué Esperar</h5>
+                            <p class="card-text">
+                                Comprende los cambios que experimenta el cuerpo durante la menopausia 
+                                y las opciones de tratamiento disponibles para aliviar los síntomas.
+                            </p>
+                            <div class="article-meta">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-2"></i>5 de Enero, 2025
+                                    <i class="fas fa-clock ms-3 me-2"></i>6 min lectura
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-outline-primary">Leer Artículo</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article class="card border-0 shadow h-100">
+                        <div class="article-image">
+                            <i class="fas fa-apple-alt fa-4x text-warning"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Embarazo</span>
+                            <h5 class="card-title">Nutrición Durante el Embarazo</h5>
+                            <p class="card-text">
+                                Los nutrientes esenciales que necesitas durante el embarazo para 
+                                garantizar el desarrollo saludable de tu bebé y tu bienestar.
+                            </p>
+                            <div class="article-meta">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-2"></i>3 de Enero, 2025
+                                    <i class="fas fa-clock ms-3 me-2"></i>8 min lectura
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-outline-primary">Leer Artículo</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article class="card border-0 shadow h-100">
+                        <div class="article-image">
+                            <i class="fas fa-heartbeat fa-4x text-danger"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Ginecología</span>
+                            <h5 class="card-title">Prevención del Cáncer Cervical</h5>
+                            <p class="card-text">
+                                La importancia del Papanicolaou y otras pruebas de detección 
+                                para prevenir el cáncer cervical y mantener una buena salud ginecológica.
+                            </p>
+                            <div class="article-meta">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-2"></i>1 de Enero, 2025
+                                    <i class="fas fa-clock ms-3 me-2"></i>6 min lectura
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-outline-primary">Leer Artículo</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article class="card border-0 shadow h-100">
+                        <div class="article-image">
+                            <i class="fas fa-moon fa-4x text-secondary"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-warning mb-2">Bienestar</span>
+                            <h5 class="card-title">Ciclo Menstrual: Lo Que Debes Saber</h5>
+                            <p class="card-text">
+                                Comprende tu ciclo menstrual, identifica cambios normales 
+                                y anormales, y aprende cuándo consultar a tu ginecólogo.
+                            </p>
+                            <div class="article-meta">
+                                <small class="text-muted">
+                                    <i class="fas fa-calendar me-2"></i>28 de Diciembre, 2024
+                                    <i class="fas fa-clock ms-3 me-2"></i>5 min lectura
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-outline-primary">Leer Artículo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="fw-bold mb-4">Suscríbete a Nuestro Newsletter</h2>
+                    <p class="lead mb-4">
+                        Recibe artículos sobre salud femenina, consejos médicos y las últimas novedades 
+                        directamente en tu correo electrónico.
+                    </p>
+                    <form class="row g-3 justify-content-center">
+                        <div class="col-md-6">
+                            <input type="email" class="form-control form-control-lg" placeholder="Tu correo electrónico">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-warning btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Suscribirse
+                            </button>
+                        </div>
+                    </form>
+                    <p class="small mt-3 opacity-75">
+                        No enviamos spam. Puedes cancelar tu suscripción en cualquier momento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Dr. Jorge Vásquez</h5>
+                    <p>Especialista en Ginecología y Obstetricia</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-3">Navegación</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-light text-decoration-none">Inicio</a></li>
+                        <li><a href="../servicios.html" class="text-light text-decoration-none">Servicios</a></li>
+                        <li><a href="index.html" class="text-light text-decoration-none">Blog</a></li>
+                        <li><a href="../contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Aplicaciones</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../aplicaciones/DosVidas/index.html" class="text-light text-decoration-none">DosVidas</a></li>
+                        <li><a href="../aplicaciones/calculadora-fertilidad/index.html" class="text-light text-decoration-none">Calculadora de Fertilidad</a></li>
+                        <li><a href="../aplicaciones/planificacion-familiar/index.html" class="text-light text-decoration-none">Planificación Familiar</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Contacto</h6>
+                    <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i>[Dirección]</p>
+                    <p class="mb-1"><i class="fas fa-phone me-2"></i>+123 456 7890</p>
+                    <p class="mb-1"><i class="fas fa-envelope me-2"></i>contacto@drjorgevasquezr.com</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="mb-0">&copy; 2025 Dr. Jorge Vásquez. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a href="#" class="text-light text-decoration-none me-3">Política de Privacidad</a>
+                    <a href="#" class="text-light text-decoration-none">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
