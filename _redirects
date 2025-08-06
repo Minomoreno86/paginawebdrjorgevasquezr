@@ -1,0 +1,13 @@
+# Redirects for Netlify
+
+# Redirect calculator links to correct paths
+/aplicaciones/calculadora-fertilidad/* /aplicaciones/calculadora-fertilidad-app/:splat 200
+/calculadora-fertilidad /aplicaciones/calculadora-fertilidad-app/index.html 200
+/calculadora-fertilidad/* /aplicaciones/calculadora-fertilidad-app/:splat 200
+/calculadora-riesgo-aborto /aplicaciones/calculadora-riesgo-aborto/index.html 200
+/calculadora-riesgo-aborto/* /aplicaciones/calculadora-riesgo-aborto/:splat 200
+/dosvidas /aplicaciones/DosVidas/index.html 200
+/dosvidas/* /aplicaciones/DosVidas/:splat 200
+
+# Handle 404s - fallback to main site
+/* /index.html 404
