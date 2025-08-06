@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Fertilidad - Dr. Jorge Vásquez R</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="../../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../../index.html">
+                <img src="../../images/logopaginaweb.png" alt="Dr. Jorge Vásquez" height="40" class="me-2">
+                <span>Dr. Jorge Vásquez R</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold text-white mb-4">📱 Calculadora de Fertilidad</h1>
+                    <p class="lead text-light mb-4">Aplicación médica profesional desarrollada con inteligencia artificial para evaluar y analizar la fertilidad de parejas que buscan concebir. Utiliza algoritmos médicos avanzados y un motor de IA especializado para proporcionar análisis clínicos precisos y recomendaciones personalizadas.</p>
+                    
+                    <div class="row g-2 mb-4">
+                        <div class="col-auto">
+                            <span class="badge bg-light text-primary px-3 py-2">🧠 Motor IA Médico</span>
+                        </div>
+                        <div class="col-auto">
+                            <span class="badge bg-light text-primary px-3 py-2">📊 Análisis Multifactorial</span>
+                        </div>
+                        <div class="col-auto">
+                            <span class="badge bg-light text-primary px-3 py-2">🔬 44KB Lógica Médica</span>
+                        </div>
+                        <div class="col-auto">
+                            <span class="badge bg-light text-primary px-3 py-2">📱 React Native + Expo</span>
+                        </div>
+                        <div class="col-auto">
+                            <span class="badge bg-light text-primary px-3 py-2">🌙 Modo Oscuro/Claro</span>
+                        </div>
+                        <div class="col-auto">
+                            <span class="badge bg-light text-primary px-3 py-2">🔐 Privacidad Total</span>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-light border-0 bg-white bg-opacity-25 text-white">
+                        <h6 class="fw-bold mb-2"><i class="fas fa-star me-2"></i>Características Principales:</h6>
+                        <ul class="mb-0 small">
+                            <li>✅ <strong>Motor Modular de Fertilidad:</strong> Sistema de cálculo con 44KB de lógica médica</li>
+                            <li>✅ <strong>Asistente Médico IA:</strong> Chat inteligente especializado en fertilidad</li>
+                            <li>✅ <strong>Análisis de 17+ factores:</strong> Evaluación integral de fertilidad</li>
+                            <li>✅ <strong>Reportes Profesionales:</strong> Informes médicos detallados</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="position-relative">
+                            <!-- Fertility Logo -->
+                            <img src="../../images/logo-fertilidad.png" alt="Logo Calculadora de Fertilidad" class="img-fluid mb-3" style="max-width: 200px; filter: brightness(1.2);">
+                            <div class="position-relative d-inline-block">
+                                <i class="fas fa-mobile-alt text-white" style="font-size: 4rem; opacity: 0.8;"></i>
+                                <i class="fas fa-heart position-absolute top-50 start-50 translate-middle text-danger" style="font-size: 1.5rem;"></i>
+                            </div>
+                        </div>
+                        <p class="text-light mt-3 small">Tecnología médica avanzada<br>en la palma de tu mano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Features Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">🏥 Funcionalidades Profesionales</h2>
+                    <p class="lead">Tecnología médica avanzada para análisis integral de fertilidad</p>
+                </div>
+            </div>
+            
+            <div class="row g-4 mb-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                                <i class="fas fa-calculator fa-2x"></i>
+                            </div>
+                            <h5 class="fw-bold">Motor Modular</h5>
+                            <p class="text-muted small">Sistema de cálculo con 44KB de lógica médica y 97KB de biblioteca clínica</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                                <i class="fas fa-robot fa-2x"></i>
+                            </div>
+                            <h5 class="fw-bold">Asistente IA</h5>
+                            <p class="text-muted small">Chat médico inteligente con análisis clínico y recomendaciones personalizadas</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                                <i class="fas fa-chart-line fa-2x"></i>
+                            </div>
+                            <h5 class="fw-bold">Análisis 17+ Factores</h5>
+                            <p class="text-muted small">Evaluación multifactorial completa con generador de reportes profesionales</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-warning text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                                <i class="fas fa-mobile-alt fa-2x"></i>
+                            </div>
+                            <h5 class="fw-bold">React Native + Expo</h5>
+                            <p class="text-muted small">Aplicación móvil nativa con TypeScript y diseño adaptativo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Features -->
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0"><i class="fas fa-clipboard-list me-2"></i>📊 Formularios Especializados</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <h6 class="text-primary fw-bold">1. Demografía</h6>
+                                    <p class="small mb-2">Edad, peso, altura, cálculo automático de BMI</p>
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="text-primary fw-bold">2. Ginecología</h6>
+                                    <p class="small mb-2">Endometriosis, miomas, adenomiosis, HSG, OTB</p>
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="text-primary fw-bold">3. Laboratorio</h6>
+                                    <p class="small mb-2">AMH, TSH, prolactina, HOMA-IR automático</p>
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="text-primary fw-bold">4. Factor Masculino</h6>
+                                    <p class="small mb-0">Espermatograma completo (concentración, motilidad, morfología)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0"><i class="fas fa-brain me-2"></i>🤖 Asistente Médico IA</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-comments text-success me-2"></i>
+                                    <strong>Consultas Inteligentes:</strong> Chat médico especializado en fertilidad
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-search text-success me-2"></i>
+                                    <strong>Análisis Clínico:</strong> Interpretación de resultados y factores
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-lightbulb text-success me-2"></i>
+                                    <strong>Recomendaciones:</strong> Sugerencias basadas en evidencia médica
+                                </li>
+                                <li class="mb-0">
+                                    <i class="fas fa-heart text-success me-2"></i>
+                                    <strong>Soporte Emocional:</strong> Acompañamiento durante el proceso
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Architecture -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">🏗️ Arquitectura Técnica</h2>
+                    <p class="lead">Tecnología de vanguardia para máximo rendimiento y confiabilidad</p>
+                </div>
+            </div>
+            
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="bg-gradient-primary text-white rounded-3 p-4 mb-3">
+                            <i class="fas fa-cogs fa-3x mb-3"></i>
+                            <h5 class="fw-bold">📦 Stack Tecnológico</h5>
+                        </div>
+                        <ul class="list-unstyled text-start">
+                            <li>✅ React Native + Expo</li>
+                            <li>✅ TypeScript completo</li>
+                            <li>✅ React Hook Form</li>
+                            <li>✅ AsyncStorage</li>
+                            <li>✅ LinearGradient</li>
+                            <li>✅ Ionicons</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="bg-gradient-success text-white rounded-3 p-4 mb-3">
+                            <i class="fas fa-brain fa-3x mb-3"></i>
+                            <h5 class="fw-bold">🧠 Motor de Cálculo</h5>
+                        </div>
+                        <ul class="list-unstyled text-start">
+                            <li>✅ Sistema Modular</li>
+                            <li>✅ Caché Inteligente</li>
+                            <li>✅ Validación Clínica</li>
+                            <li>✅ Cálculos Reactivos</li>
+                            <li>✅ BMI y HOMA-IR automático</li>
+                            <li>✅ Arquitectura escalable</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="bg-gradient-info text-white rounded-3 p-4 mb-3">
+                            <i class="fas fa-shield-alt fa-3x mb-3"></i>
+                            <h5 class="fw-bold">🔐 Seguridad & Privacidad</h5>
+                        </div>
+                        <ul class="list-unstyled text-start">
+                            <li>✅ Datos almacenados localmente</li>
+                            <li>✅ Sin envío a servidores</li>
+                            <li>✅ Autenticación segura</li>
+                            <li>✅ Sesiones persistentes</li>
+                            <li>✅ Cumplimiento HIPAA</li>
+                            <li>✅ Privacidad total</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results and Analysis -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-warning text-dark">
+                            <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>📊 Análisis y Resultados</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="text-warning fw-bold">🎯 Métricas Evaluadas</h6>
+                            <ul class="small mb-3">
+                                <li>Probabilidad de Embarazo por ciclo mensual</li>
+                                <li>Categorización: Excelente, Bueno, Regular, Bajo</li>
+                                <li>Identificación de factores de riesgo específicos</li>
+                                <li>Recomendaciones médicas personalizadas</li>
+                            </ul>
+                            
+                            <h6 class="text-warning fw-bold">📝 Reportes Generados</h6>
+                            <ul class="small mb-0">
+                                <li>Análisis detallado de factores</li>
+                                <li>Interpretación médica profesional</li>
+                                <li>Comparación con estándares médicos</li>
+                                <li>Plan de acción específico</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-info text-white">
+                            <h5 class="mb-0"><i class="fas fa-users me-2"></i>🎯 Público Objetivo</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="text-info fw-bold">👥 Usuarios Principales</h6>
+                            <ul class="small mb-3">
+                                <li>Parejas que buscan concebir</li>
+                                <li>Pacientes en tratamiento de fertilidad</li>
+                                <li>Profesionales de salud reproductiva</li>
+                                <li>Personas interesadas en salud reproductiva</li>
+                            </ul>
+                            
+                            <h6 class="text-info fw-bold">🌟 Valor Único</h6>
+                            <ul class="small mb-0">
+                                <li>Precisión médica basada en evidencia</li>
+                                <li>Interfaz profesional pero accesible</li>
+                                <li>Evaluación integral de fertilidad</li>
+                                <li>Sin costos ocultos - funcionalidad completa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Status -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">📈 Estado del Proyecto</h2>
+                    <p class="lead">Desarrollo completado y listo para despliegue</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card border-success border-2 h-100">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0"><i class="fas fa-check-circle me-2"></i>✅ Completado</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row g-2">
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Sistema de autenticación</span></div>
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Formularios médicos</span></div>
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Motor de cálculo</span></div>
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Modo oscuro/claro</span></div>
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Asistente IA médico</span></div>
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Generación reportes</span></div>
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Configuración usuario</span></div>
+                                <div class="col-6"><span class="badge bg-success w-100">✅ Prep. App Store</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-primary border-2 h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0"><i class="fas fa-rocket me-2"></i>🚀 Próximos Pasos</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="timeline">
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="badge bg-primary me-3">1</span>
+                                    <span>🏪 Publicación en App Store</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="badge bg-primary me-3">2</span>
+                                    <span>📊 Análisis de uso y feedback</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="badge bg-primary me-3">3</span>
+                                    <span>🔄 Mejoras basadas en usuarios</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="badge bg-primary me-3">4</span>
+                                    <span>🌍 Expansión de funcionalidades</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="alert alert-success border-0 shadow-sm">
+                        <div class="row align-items-center">
+                            <div class="col-md-1 text-center">
+                                <i class="fas fa-trophy fa-3x text-success"></i>
+                            </div>
+                            <div class="col-md-11">
+                                <h5 class="fw-bold text-success mb-2">🏆 Solución Completa y Profesional</h5>
+                                <p class="mb-0">Esta aplicación representa una solución completa y profesional para la evaluación de fertilidad, combinando <strong>tecnología médica avanzada</strong> con una <strong>experiencia de usuario excepcional</strong>. Desarrollada con los más altos estándares de calidad médica y tecnológica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-header bg-primary text-white text-center py-4">
+                            <img src="../../images/logo-fertilidad.png" alt="Logo Calculadora de Fertilidad" class="mb-2" style="height: 50px;">
+                            <h3 class="fw-bold mb-0"><i class="fas fa-calculator me-2"></i>Calculadora de Fertilidad</h3>
+                        </div>
+                        <div class="card-body p-5">
+                            <form id="fertilityCalculator">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <label for="lastPeriod" class="form-label fw-bold">
+                                            <i class="fas fa-calendar me-2 text-primary"></i>Fecha de última menstruación
+                                        </label>
+                                        <input type="date" class="form-control form-control-lg" id="lastPeriod" required>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <label for="cycleLength" class="form-label fw-bold">
+                                            <i class="fas fa-clock me-2 text-primary"></i>Duración del ciclo (días)
+                                        </label>
+                                        <select class="form-select form-select-lg" id="cycleLength">
+                                            <option value="21">21 días</option>
+                                            <option value="22">22 días</option>
+                                            <option value="23">23 días</option>
+                                            <option value="24">24 días</option>
+                                            <option value="25">25 días</option>
+                                            <option value="26">26 días</option>
+                                            <option value="27">27 días</option>
+                                            <option value="28" selected>28 días (promedio)</option>
+                                            <option value="29">29 días</option>
+                                            <option value="30">30 días</option>
+                                            <option value="31">31 días</option>
+                                            <option value="32">32 días</option>
+                                            <option value="33">33 días</option>
+                                            <option value="34">34 días</option>
+                                            <option value="35">35 días</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="lutealPhase" class="form-label fw-bold">
+                                            <i class="fas fa-moon me-2 text-primary"></i>Fase lútea (días)
+                                        </label>
+                                        <select class="form-select form-select-lg" id="lutealPhase">
+                                            <option value="10">10 días</option>
+                                            <option value="11">11 días</option>
+                                            <option value="12">12 días</option>
+                                            <option value="13">13 días</option>
+                                            <option value="14" selected>14 días (promedio)</option>
+                                            <option value="15">15 días</option>
+                                            <option value="16">16 días</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="age" class="form-label fw-bold">
+                                            <i class="fas fa-user me-2 text-primary"></i>Edad
+                                        </label>
+                                        <input type="number" class="form-control form-control-lg" id="age" min="18" max="50" placeholder="Ej: 28">
+                                    </div>
+                                </div>
+
+                                <div class="text-center mt-5">
+                                    <button type="submit" class="btn btn-primary btn-lg px-5 py-3">
+                                        <i class="fas fa-calculator me-2"></i>Calcular Ventana de Fertilidad
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="py-5 bg-light" id="resultsSection" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="text-center fw-bold mb-5">Resultados del Cálculo</h2>
+                    <div class="row g-4" id="resultsContainer">
+                        <!-- Results will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Information Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="card border-0 h-100">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold text-primary mb-3">
+                                <i class="fas fa-info-circle me-2"></i>¿Cómo funciona?
+                            </h4>
+                            <p>La calculadora utiliza el método del calendario para estimar la ventana de fertilidad basándose en:</p>
+                            <ul>
+                                <li>Duración promedio del ciclo menstrual</li>
+                                <li>Fecha de la última menstruación</li>
+                                <li>Duración de la fase lútea</li>
+                                <li>Supervivencia espermatozoide (5 días)</li>
+                                <li>Supervivencia óvulo (24 horas)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 h-100">
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold text-primary mb-3">
+                                <i class="fas fa-exclamation-triangle me-2"></i>Consideraciones
+                            </h4>
+                            <p>Esta herramienta es una estimación y debe considerarse junto con:</p>
+                            <ul>
+                                <li>Evaluación médica profesional</li>
+                                <li>Métodos de seguimiento adicionales</li>
+                                <li>Variabilidad individual del ciclo</li>
+                                <li>Factores de salud reproductiva</li>
+                                <li>Consulta especializada si es necesario</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Links -->
+    <section class="py-4 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-3">Esta aplicación es una herramienta de apoyo clínico</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-4">
+                        <a href="aviso-medico.html" class="text-white text-decoration-none">
+                            <i class="fas fa-shield-alt me-1"></i>Aviso Médico
+                        </a>
+                        <a href="politicas-privacidad.html" class="text-white text-decoration-none">
+                            <i class="fas fa-lock me-1"></i>Políticas de Privacidad
+                        </a>
+                        <a href="terminos-servicio.html" class="text-white text-decoration-none">
+                            <i class="fas fa-file-contract me-1"></i>Términos de Servicio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Dr. Jorge Vásquez R</h5>
+                    <p>Especialista en Ginecología y Obstetricia</p>
+                    <p>Medicina Reproductiva</p>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Aplicaciones</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../DosVidas/index.html" class="text-light text-decoration-none">DosVidas - Riesgo de Aborto</a></li>
+                        <li><a href="index.html" class="text-light text-decoration-none">Calculadora de Fertilidad</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Contacto</h6>
+                    <p class="mb-1"><i class="fas fa-envelope me-2"></i>minomoreno86@gmail.com</p>
+                    <p class="mb-1"><i class="fas fa-globe me-2"></i>www.drjorgevasquezr.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('fertilityCalculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const lastPeriod = new Date(document.getElementById('lastPeriod').value);
+            const cycleLength = parseInt(document.getElementById('cycleLength').value);
+            const lutealPhase = parseInt(document.getElementById('lutealPhase').value);
+            const age = parseInt(document.getElementById('age').value);
+            
+            if (!lastPeriod || isNaN(cycleLength) || isNaN(lutealPhase)) {
+                alert('Por favor, complete todos los campos requeridos.');
+                return;
+            }
+            
+            // Calculate ovulation day
+            const ovulationDay = cycleLength - lutealPhase;
+            const ovulationDate = new Date(lastPeriod);
+            ovulationDate.setDate(ovulationDate.getDate() + ovulationDay);
+            
+            // Calculate fertile window (5 days before ovulation + ovulation day)
+            const fertileStart = new Date(ovulationDate);
+            fertileStart.setDate(fertileStart.getDate() - 5);
+            
+            const fertileEnd = new Date(ovulationDate);
+            fertileEnd.setDate(fertileEnd.getDate() + 1);
+            
+            // Calculate next period
+            const nextPeriod = new Date(lastPeriod);
+            nextPeriod.setDate(nextPeriod.getDate() + cycleLength);
+            
+            // Calculate implantation window
+            const implantationStart = new Date(ovulationDate);
+            implantationStart.setDate(implantationStart.getDate() + 6);
+            
+            const implantationEnd = new Date(ovulationDate);
+            implantationEnd.setDate(implantationEnd.getDate() + 12);
+            
+            displayResults({
+                ovulationDate,
+                fertileStart,
+                fertileEnd,
+                nextPeriod,
+                implantationStart,
+                implantationEnd,
+                age,
+                cycleLength
+            });
+        });
+        
+        function displayResults(data) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+            
+            resultsContainer.innerHTML = `
+                <div class="col-lg-6">
+                    <div class="card border-primary h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0"><i class="fas fa-calendar-heart me-2"></i>Ventana de Fertilidad</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Inicio:</strong> ${data.fertileStart.toLocaleDateString('es-ES', dateOptions)}</p>
+                            <p><strong>Fin:</strong> ${data.fertileEnd.toLocaleDateString('es-ES', dateOptions)}</p>
+                            <div class="alert alert-info">
+                                <small><i class="fas fa-info-circle me-1"></i>Período de mayor probabilidad de concepción</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-success h-100">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0"><i class="fas fa-bullseye me-2"></i>Ovulación Estimada</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Fecha:</strong> ${data.ovulationDate.toLocaleDateString('es-ES', dateOptions)}</p>
+                            <p><strong>Día del ciclo:</strong> ${data.cycleLength - data.implantationStart.getDate() + data.ovulationDate.getDate()}</p>
+                            <div class="alert alert-success">
+                                <small><i class="fas fa-check-circle me-1"></i>Momento de liberación del óvulo</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-warning h-100">
+                        <div class="card-header bg-warning text-dark">
+                            <h5 class="mb-0"><i class="fas fa-seedling me-2"></i>Ventana de Implantación</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Inicio:</strong> ${data.implantationStart.toLocaleDateString('es-ES', dateOptions)}</p>
+                            <p><strong>Fin:</strong> ${data.implantationEnd.toLocaleDateString('es-ES', dateOptions)}</p>
+                            <div class="alert alert-warning">
+                                <small><i class="fas fa-info-circle me-1"></i>Período posible de implantación</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card border-secondary h-100">
+                        <div class="card-header bg-secondary text-white">
+                            <h5 class="mb-0"><i class="fas fa-calendar-alt me-2"></i>Próximo Período</h5>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Fecha estimada:</strong> ${data.nextPeriod.toLocaleDateString('es-ES', dateOptions)}</p>
+                            <p><strong>Duración del ciclo:</strong> ${data.cycleLength} días</p>
+                            <div class="alert alert-secondary">
+                                <small><i class="fas fa-info-circle me-1"></i>Si no hay embarazo</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Add age-related recommendations
+            if (data.age) {
+                let ageAdvice = '';
+                if (data.age < 25) {
+                    ageAdvice = 'Fertilidad óptima. Considere planificación reproductiva.';
+                } else if (data.age < 30) {
+                    ageAdvice = 'Excelente fertilidad. Momento ideal para la concepción.';
+                } else if (data.age < 35) {
+                    ageAdvice = 'Buena fertilidad. Considere evaluación preconcepcional.';
+                } else if (data.age < 40) {
+                    ageAdvice = 'Fertilidad puede estar disminuyendo. Consulte especialista.';
+                } else {
+                    ageAdvice = 'Fertilidad significativamente reducida. Evaluación especializada recomendada.';
+                }
+                
+                resultsContainer.innerHTML += `
+                    <div class="col-12">
+                        <div class="card border-info">
+                            <div class="card-header bg-info text-white">
+                                <h5 class="mb-0"><i class="fas fa-user-md me-2"></i>Recomendación por Edad (${data.age} años)</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="mb-0">${ageAdvice}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            document.getElementById('resultsSection').style.display = 'block';
+            document.getElementById('resultsSection').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
